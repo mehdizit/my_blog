@@ -1,0 +1,22 @@
+
+    {% include 'nav.html' %}
+    <h1 class="text-center mt-2">Detail article</h1>
+    <img src="{{article.image.url}}" alt="">
+    <h2>{{article.title}}</h2>
+    <p>{{article.desc}}</p>
+
+
+
+
+
+
+
+
+
+
+    <a href="{% url 'detail' article.id %}">
+        <img class="card-img-top" src="https://via.placeholder.com/150" alt="Card image cap" style="height: 200px;">
+      </a>
+
+
+      https://via.placeholder.com/150
